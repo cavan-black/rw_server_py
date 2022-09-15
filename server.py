@@ -2,7 +2,6 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 from os import read
 import json
 import cgi
-import socketserver
 
 hostName = "localhost"
 serverPort = 80
